@@ -1,0 +1,20 @@
+body {
+  background-color:rgb(141, 165, 118);
+}
+
+a {
+  text-decoration: none;
+}
+
+input,button {
+   height:30px;
+   width:150px;
+   font-size:20px;
+   display:block;
+   margin-bottom: 5px;
+}
+
+div{margin:auto;
+width:200px;
+
+}
