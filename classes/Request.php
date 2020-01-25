@@ -25,10 +25,10 @@ class Request
 		if (strpos($_SERVER['REQUEST_URI'], '?')) {
 			
 			$parameters = explode('&', explode('?', $_SERVER['REQUEST_URI'])[1]);
-				foreach ($parameters as $key_value) {
-					$parameters_parts = explode('=', $key_value);
-					$this->get[$parameters_parts[0]] = $parameters_parts[1];
-				}
+			foreach ($parameters as $key_value) {
+				$parameters_parts = explode('=', $key_value);
+				$this->get[$parameters_parts[0]] = $parameters_parts[1];
+			}
 		}
 
 	}

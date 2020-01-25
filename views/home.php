@@ -11,8 +11,8 @@
         <h1><a href='./logout'>LOGOUT</a></h1>
 
         <form action='./resultscreen' method='post'>
-        <input type='text' name='search' placeholder='search'/> 
-        <button type='submit'>submit</button>
+            <input type='text' name='search' placeholder='search'/> 
+            <button type='submit'>submit</button>
         </form>
     </div>
 </body>

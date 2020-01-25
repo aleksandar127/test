@@ -21,8 +21,6 @@
         else
             echo 'There is no results!';
 
-
-
         ?>
     </div>
 </body>

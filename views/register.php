@@ -10,11 +10,11 @@
         <h1><a href='./home'>HOME</a></h1>
 
         <form action='./register' method='post'>
-        <input type='text' name='name' placeholder='name'/>
-        <input type='text' name='email' placeholder='email'/>
-        <input type='text' name='password' placeholder='password'/>
-        <input type='text' name='re_password' placeholder='re_password'/>
-        <button type='submit'>submit</button>
+            <input type='text' name='name' placeholder='name'/>
+            <input type='text' name='email' placeholder='email'/>
+            <input type='text' name='password' placeholder='password'/>
+            <input type='text' name='re_password' placeholder='re_password'/>
+            <button type='submit'>submit</button>
         </form>
         <?php
 
