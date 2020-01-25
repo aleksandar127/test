@@ -90,7 +90,7 @@ class BaseAccessController
 			$view->data['msg'] []='password and re_password must match';
 		  
 		if(!isset($view->data['msg'])){
-			$user=new User($name,$email,$password,$re_password);
+			$user=new User($name,$email,$password);
 
         //check if user exist in database
 		if(User::userExist($user->email)){

@@ -13,7 +13,7 @@ class Request
 		$this->post_request();
 	}
 
-//unpacking GET request
+//unpacking GET request 
 	private function get_request()
 	{
 		// first part of url

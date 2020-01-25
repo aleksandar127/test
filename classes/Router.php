@@ -7,7 +7,7 @@ class Router
 	public function __construct($request)
 	{
 	
-		//
+		//app has only one controller
 		$this->request = $request;
 		$controller = new BaseAccessController($this->request);
 		$method =  $this->request->parts_of_url[2];	
